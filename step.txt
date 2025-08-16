@@ -1,0 +1,13 @@
+Intialize an empty node js project -> npm init -y
+Add tsconfig to it  -> npm install typescript
+                    -> npx tsc --init
+Update ->
+        "rootDir" :"./src"
+        "outDir": "./dist"
+
+Install web Sockets
+            ->npm i ws @types/ws
+npm (node package manager)  -> installing package for node js projects
+i -> install
+ws -> actuall websocket library for nodejs
+@types/ws -> typeScript type defination for web sockets
